@@ -22,9 +22,9 @@ ll min(ll a, ll b)
 }
 int main()
 {
-
     ll n;
     input(n);
+    
 
     return 0;
 }
