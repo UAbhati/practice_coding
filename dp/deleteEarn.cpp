@@ -1,3 +1,6 @@
+#include<bits/stdc++.h>
+using namespace std;
+
 class Solution
 {
 public:
@@ -19,3 +22,18 @@ public:
         return max(take, skip);
     }
 };
+int main()
+{
+    int n, a;
+    cin >> n;
+    vector<int> nums(n);
+    for (int i = 0; i < n; i++)
+    {
+            cin >> a;
+            nums[i] = a;
+    }
+    Solution s;
+    cout << s.deleteAndEarn(nums) << "\n";
+
+    return 0;
+}
